@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".view.TablesListActivity">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:gravity="top">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3" android:text="Numer stolika"/>
+            <TextView
+                    android:text="Godzina otwarcia"
+                    android:layout_width="0dp"
+                    android:layout_weight= "1"
+                    android:layout_height="wrap_content"
+            android:id="@+id/textView2"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableListRecyclerView"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:id="@+id/newTableButton"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_add_black_24dp"
+            android:focusable="true"
+            android:onClick="showNewTableView"/>
+</FrameLayout>

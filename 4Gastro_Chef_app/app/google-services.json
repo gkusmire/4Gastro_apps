@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "379257945320",
+    "firebase_url": "https://gastrodatabase.firebaseio.com",
+    "project_id": "gastrodatabase",
+    "storage_bucket": "gastrodatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379257945320:android:a8b76524759d57f1",
+        "android_client_info": {
+          "package_name": "com.example.grzegorz.a4gastro_chef_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379257945320-bsgbecieqev5qreb8uh3p6m97l85u875.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grzegorz.a4gastro_chef_app",
+            "certificate_hash": "fad4f7a811d4c6f8dccedf79a27c2a194cbf5dc2"
+          }
+        },
+        {
+          "client_id": "379257945320-lett57pn4c5hh98ulm8vpgjdcpacdfq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqi3hjDwWF4cgiZ--YzphnzctMGK1wDio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379257945320-lett57pn4c5hh98ulm8vpgjdcpacdfq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379257945320:android:d249e17bac1faf76",
+        "android_client_info": {
+          "package_name": "com.example.grzegorz.a4gastro_waiter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379257945320-2ufn193bjqg8mla0grovdkedhfen6ccp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grzegorz.a4gastro_waiter_app",
+            "certificate_hash": "fad4f7a811d4c6f8dccedf79a27c2a194cbf5dc2"
+          }
+        },
+        {
+          "client_id": "379257945320-lett57pn4c5hh98ulm8vpgjdcpacdfq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqi3hjDwWF4cgiZ--YzphnzctMGK1wDio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379257945320-lett57pn4c5hh98ulm8vpgjdcpacdfq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

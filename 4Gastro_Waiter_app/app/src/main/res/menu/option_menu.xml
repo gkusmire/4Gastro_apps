@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu"
+          android:icon="@drawable/ic_option_black_24dp"
+          android:title="Wybierz..." />
+
+    <item android:id="@+id/readyOrders"
+          android:title="Gotowe zamówienia" />
+    <item android:id="@+id/logout"
+          android:title="Wyloguj" />
+</menu>

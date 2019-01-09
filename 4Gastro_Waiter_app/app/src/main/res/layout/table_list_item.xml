@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:layout_marginTop="30dp">
+        <TextView
+                android:text="tableNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/numberTextView" android:layout_weight="1"/>
+        <TextView
+                android:text="startTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/startTimeTextView" android:layout_weight="1"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
